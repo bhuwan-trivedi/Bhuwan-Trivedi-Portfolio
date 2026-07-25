@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Bhuwan Trivedi",
+    "role": "BCA Student — Cloud Computing",
+    "tagline": "Building full-stack web projects while learning cloud computing, one commit at a time.",
+    "about": [
+      "Hi, I'm Bhuwan — a BCA student at Poornima University, Jaipur, specializing in Cloud Computing, with hands-on experience in Python, PHP, MySQL, HTML, and CSS.",
+      "I completed a Full Stack Development internship at Cynbit Technologies, where I worked across the frontend and backend building real features rather than just following tutorials.",
+      "I've built responsive full-stack web projects with authentication and database integration, and I'm especially interested in cloud technologies and backend development.",
+      "Outside of coursework, I like exploring new tools, working through certifications, and building small projects to put what I'm learning into practice."
+    ],
+    "email": "bhuwantrivedi20@gmail.com",
+    "github": "https://github.com/bhuwan-trivedi",
+    "linkedin": "https://www.linkedin.com/in/bhuwan-trivedi-08a008324",
+    "resumeUrl": "/files/Bhuwan_Trivedi_Resume.pdf"
+  },
+  "experience": [
+    {
+      "id": "exp1",
+      "dateRange": "Internship (edit dates)",
+      "title": "Full Stack Development Intern",
+      "company": "Cynbit Technologies",
+      "description": "Worked on full-stack web development, building and maintaining features across the frontend and backend as part of an internship program.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "id": "exp2",
+      "dateRange": "Pursuing",
+      "title": "BCA — Cloud Computing",
+      "company": "Poornima University, Jaipur",
+      "description": "Coursework focused on cloud computing fundamentals, virtualization, and full-stack web development.",
+      "tags": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Bike Rental Website",
+      "description": "A responsive bike rental platform with user authentication and booking management, an admin dashboard for managing users and bookings, and a MySQL database for storing customer and rental information.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "PHP",
+        "MySQL"
+      ],
+      "url": "#"
+    }
+  ],
+  "messages": []
+}

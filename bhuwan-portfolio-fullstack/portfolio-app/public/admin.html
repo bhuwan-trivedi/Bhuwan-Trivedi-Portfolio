@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Bhuwan Trivedi Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="login-view" class="admin-login">
+  <h1>Admin Login</h1>
+  <form class="contact-form" id="login-form">
+    <div class="form-row">
+      <label for="password">Admin password</label>
+      <input type="password" id="password" required autofocus>
+    </div>
+    <button type="submit" class="form-submit">Log in ↗</button>
+    <div class="form-status" id="login-status" role="status" aria-live="polite"></div>
+  </form>
+</div>
+
+<div id="dashboard-view" class="admin-wrap" style="display:none;">
+  <div class="admin-header">
+    <h1>Portfolio Admin</h1>
+    <button class="logout-btn" id="logout-btn">Log out</button>
+  </div>
+
+  <section class="admin-section">
+    <h2>Experience</h2>
+    <div id="experience-admin-list"></div>
+    <button type="button" class="logout-btn" id="show-experience-form">+ Add experience</button>
+    <form class="admin-form" id="experience-form" style="display:none;">
+      <input type="text" name="dateRange" placeholder="Date range (e.g. 2023 — Present)" required>
+      <input type="text" name="title" placeholder="Title (e.g. Senior Software Engineer)" required>
+      <input type="text" name="company" placeholder="Company / school">
+      <textarea name="description" placeholder="Description" required></textarea>
+      <input type="text" name="tags" placeholder="Tags, comma-separated (e.g. Node.js, PostgreSQL)">
+      <button type="submit">Save entry</button>
+    </form>
+  </section>
+
+  <section class="admin-section">
+    <h2>Projects</h2>
+    <div id="projects-admin-list"></div>
+    <button type="button" class="logout-btn" id="show-project-form">+ Add project</button>
+    <form class="admin-form" id="project-form" style="display:none;">
+      <input type="text" name="title" placeholder="Project title" required>
+      <textarea name="description" placeholder="Description" required></textarea>
+      <input type="text" name="tags" placeholder="Tags, comma-separated">
+      <input type="text" name="url" placeholder="Project URL (https://...)">
+      <button type="submit">Save project</button>
+    </form>
+  </section>
+
+  <section class="admin-section">
+    <h2>Contact messages</h2>
+    <div id="messages-admin-list"></div>
+  </section>
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
